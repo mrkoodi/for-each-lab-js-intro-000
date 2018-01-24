@@ -4,7 +4,7 @@ function iterativeLog(array) {
 }
 
 function iterate(callback) {
-  var array =  [ ];
+  var array =  [ "koodi" ];
   array.forEach(callback);
   return array;
 }
